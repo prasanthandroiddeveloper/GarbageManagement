@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/_15sdp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        tools:context=".Complete_details">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+
+            android:textAlignment="center">
+            <ImageView
+                android:id="@+id/fetch"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:alpha="1"
+                android:layout_height="@dimen/_300sdp"
+                android:src="@drawable/splash1"
+                tools:ignore="ContentDescription"/>
+        </androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:background="#d3d3d3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Short Description"
+            android:textSize="@dimen/_15sdp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#D81B60"/>
+        <TextView
+            android:id="@+id/wwh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clothes"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#d3d3d3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#D81B60"/>
+
+        <TextView
+            android:id="@+id/addr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19-6-22B"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/str"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr Mahal Road"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pooja Bakery"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tirupati"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="517501"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/distr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chittoor"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="#d3d3d3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Information"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textColor="#D81B60"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+
+            android:id="@+id/layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                app:srcCompat="@drawable/ic_person_black_24dp"
+                android:layout_weight="1"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_height="@dimen/_50sdp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/namer"
+                android:text="Bhanu Prakash"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/layout_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                app:srcCompat="@drawable/ic_smartphone"
+                android:layout_weight="1"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_height="@dimen/_50sdp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/phnnum"
+                android:text="9848582020"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/layout_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                app:srcCompat="@drawable/ic_mail"
+                android:layout_weight="1"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_marginLeft="@dimen/_18sdp"
+                android:layout_height="@dimen/_50sdp"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/emailat"
+                android:text="Ram@gmail.com"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

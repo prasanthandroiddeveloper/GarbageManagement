@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_85sdp"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:text="ADD COMPLAINT"
+                android:textColor="#ff0000"
+                android:textSize="@dimen/_16sdp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center">
+
+                <EditText
+                    android:id="@+id/Add1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@drawable/border"
+                    android:hint="Address1"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/Add2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:background="@drawable/border"
+                    android:hint="Street"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/land"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:background="@drawable/border"
+                    android:hint="Landmark"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_160sdp"
+                    android:background="@drawable/border"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                    android:hint="City"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/Pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_200sdp"
+                    android:background="@drawable/border"
+                    android:hint="Pincode"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/Dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_250sdp"
+                    android:background="@drawable/border"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                    android:hint="District"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+
+                <EditText
+                    android:id="@+id/Desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_300sdp"
+                    android:background="@drawable/border"
+                    android:hint="Description"
+                    android:maxLines="11"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="normal"
+                    tools:ignore="HardcodedText" />
+
+
+                <Button
+                    android:id="@+id/btnUpload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_350sdp"
+                    android:text="Upload a Picture" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:layout_marginTop="@dimen/_400sdp"
+                    app:srcCompat="@drawable/ic_add_a_photo_black_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+
+
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/btnsub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:background="#2FA4E7"
+                android:text="Submit"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
